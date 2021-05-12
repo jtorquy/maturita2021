@@ -37,6 +37,10 @@ nav {
     position: relative;
 }
 
+.page1 {
+background: none;
+}
+
 .logo {
     position: relative;
     color: rgb(226, 226, 226);
