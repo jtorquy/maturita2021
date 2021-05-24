@@ -38,7 +38,7 @@ nav {
 }
 
 .page1 {
-background: none;
+    background: none;
 }
 
 .logo {
@@ -243,18 +243,68 @@ a.button {
     justify-content: center;
 }
 
+.eventi {
+    background: url(/images/alexander-popov-hTv8aaPziOQ-unsplash.jpg) no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.alloggi {
+    background: url(/images/marten-bjork-n_IKQDCyrG0-unsplash.jpg) no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 .content_text {
-    /* background-color: rgba(0, 107, 173, 0.705); */
+    /* background-color: rgba(50, 143, 201, 0.404); */
     text-align: right;
     padding: 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 
 .content_text h4 {
-    color: rgb(0, 0, 0);
+    color: rgb(44, 102, 156);
     font-size: 4.5rem;
     letter-spacing: 5px;
     margin-right: 40vh;
     margin-bottom: 20vh;
+    text-shadow: 2px 2px rgb(0, 17, 114);
+}
+
+.two h4 {
+    color: white;
+    font-size: 4.5rem;
+    letter-spacing: 5px;
+    margin-right: 40vh;
+    margin-bottom: 20vh;
+    text-shadow: 2px 2px black;
+}
+
+.prenota {
+    background-color: rgb(85, 96, 163);
+    color: white;
+    padding: 1vh;
+    border-radius: 1rem;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    margin-top: 1rem;
+}
+
+.prenota:hover {
+    background-color: rgb(0, 17, 114);
+    color: white;
+    padding: 1vh;
+    border-radius: 1rem;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    transition: all 0.3s ease 0s;
+    transform: scale(1.05);
 }
 
 
