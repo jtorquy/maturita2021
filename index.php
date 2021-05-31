@@ -20,19 +20,19 @@
                 </div>
                 <ul class="nav_links">
                     <li>
-                        <a href="scopri.html" class="nav_item">Scopri</a>
+                        <a href="scopri.php" class="nav_item">Scopri</a>
                     </li>
                     <li>
-                        <a href="eventi.html " class="nav_item ">Eventi</a>
+                        <a href="eventi.php " class="nav_item ">Eventi</a>
                     </li>
                     <li>
-                        <a href="alloggi.html " class="nav_item ">Alloggi</a>
+                        <a href="alloggi.php " class="nav_item ">Alloggi</a>
                     </li>
                     <li>
-                        <a href="raggiungici.html " class="nav_item ">Raggiungici</a>
+                        <a href="raggiungici.php " class="nav_item ">Raggiungici</a>
                     </li>
                     <li>
-                        <a href="info.html " class="nav_item ">Info</a>
+                        <a href="info.php " class="nav_item ">Info</a>
                     </li>
                 </ul>
                 <div class="burger ">
@@ -49,7 +49,7 @@
                     <div class="main_heading">
                         <h1 class="title">Vasto è <span class="txt-rotate" data-period="2000" data-rotate='["meravigliosa","stupenda","accogliente","magica", "romantica" ]'></span></h1>
                         <!----<h2 class="subtitle">Città di storia, cultura e ottimo cibo</h2>---->
-                        <a href="scopri.html" class="button">scopri di pi&ugrave;</a>
+                        <a href="scopri.php" class="button">scopri di pi&ugrave;</a>
                     </div>
                 </div>
             </div>
