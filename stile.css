@@ -9,7 +9,7 @@ body {
 }
 
 .body_main {
-    background: url(/images/ilenia-f-yhdwny9TUA4-unsplash.jpg) no-repeat center center/cover;
+    background: url(./images/ilenia-f-yhdwny9TUA4-unsplash.jpg) no-repeat center center/cover;
 }
 
 
@@ -236,7 +236,7 @@ a.button {
 /*content*/
 
 .scopri {
-    background: url(/images/vasto2.jpg) no-repeat center center/cover;
+    background: url(./images/vasto2.jpg) no-repeat center center/cover;
     height: 50vh;
     display: flex;
     align-items: flex-end;
@@ -244,7 +244,7 @@ a.button {
 }
 
 .eventi {
-    background: url(/images/alexander-popov-hTv8aaPziOQ-unsplash.jpg) no-repeat center center/cover;
+    background: url(./images/alexander-popov-hTv8aaPziOQ-unsplash.jpg) no-repeat center center/cover;
     height: 50vh;
     display: flex;
     align-items: flex-end;
@@ -252,7 +252,7 @@ a.button {
 }
 
 .alloggi {
-    background: url(/images/marten-bjork-n_IKQDCyrG0-unsplash.jpg) no-repeat center center/cover;
+    background: url(./images/marten-bjork-n_IKQDCyrG0-unsplash.jpg) no-repeat center center/cover;
     height: 50vh;
     display: flex;
     align-items: flex-end;
@@ -285,24 +285,26 @@ a.button {
 }
 
 .prenota {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
     background-color: rgb(85, 96, 163);
     color: white;
-    padding: 1vh;
+    padding: 0.5rem 3.5rem;
     border-radius: 1rem;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     border: none;
+    /* margin-top: 300vh; */
+    margin-left: 40vh;
+}
+
+a.prenota {
     margin-top: 1rem;
 }
 
 .prenota:hover {
     background-color: rgb(0, 17, 114);
-    color: white;
-    padding: 1vh;
-    border-radius: 1rem;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    border: none;
     transition: all 0.3s ease 0s;
     transform: scale(1.05);
 }
@@ -325,6 +327,10 @@ a.button {
     background-color: rgb(211, 233, 233);
     border-radius: 15px;
     padding: 1.2em;
+}
+
+.all {
+    grid-column: span 3;
 }
 
 .span-2 {
@@ -366,6 +372,67 @@ a.button {
 
 .content {
     background-color: lightgrey;
+}
+
+div.elem-group {
+    margin: 10px 0;
+    margin-left: 1%;
+}
+
+div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+}
+
+div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    font-family: 'Poppins';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+}
+
+hr {
+    border: 1px dotted rgb(104, 104, 104);
+}
+
+input,
+select,
+textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.15em;
+    font-family: 'Poppins';
+    width: 100%;
+    padding: 10px;
+}
+
+.prenota2 {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(220, 226, 139);
+    color: black;
+    padding: 0.5rem 3.5rem;
+    border-radius: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    margin-top: 15px;
+    margin-left: 41%;
+    font-size: 1.5rem;
+}
+
+.prenota2:hover {
+    background-color: rgb(252, 214, 45);
+    transition: all 0.3s ease 0s;
+    transform: scale(1.05);
 }
 
 
